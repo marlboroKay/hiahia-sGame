@@ -1,47 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-
-    <title>2048</title>
-     
-    <link rel="stylesheet" type="text/css" href="2048.css" />
-
-    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
-    <script type="text/javascript" src="support2048.js"></script>
-    <script type="text/javascript" src="showanimation2048.js"></script>
-    <script type="text/javascript" src="main2048.js"></script>
+    <meta charset="utf-8">
+	<meta name = "viewport" content = "width=device-width,height=divece-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <title>人机大战</title>
+    <link rel="stylesheet" href="css/style.css" type = "text/css">
+	
 </head>
 <body>
-    <header>
-        <h1>2048</h1>
-        <a href="javascript:newgame();" id="newgamebutton">New Game</a>
-        <p>score : <span id="score">0</span></p>
-    </header>
-
-    <div id="grid-container">
-        <div class="grid-cell" id="grid-cell-0-0"></div>
-        <div class="grid-cell" id="grid-cell-0-1"></div>
-        <div class="grid-cell" id="grid-cell-0-2"></div>
-        <div class="grid-cell" id="grid-cell-0-3"></div>
-
-        <div class="grid-cell" id="grid-cell-1-0"></div>
-        <div class="grid-cell" id="grid-cell-1-1"></div>
-        <div class="grid-cell" id="grid-cell-1-2"></div>
-        <div class="grid-cell" id="grid-cell-1-3"></div>
-
-        <div class="grid-cell" id="grid-cell-2-0"></div>
-        <div class="grid-cell" id="grid-cell-2-1"></div>
-        <div class="grid-cell" id="grid-cell-2-2"></div>
-        <div class="grid-cell" id="grid-cell-2-3"></div>
-
-        <div class="grid-cell" id="grid-cell-3-0"></div>
-        <div class="grid-cell" id="grid-cell-3-1"></div>
-        <div class="grid-cell" id="grid-cell-3-2"></div>
-        <div class="grid-cell" id="grid-cell-3-3"></div>
-    </div>
-<embed  src="http://play.baidu.com/?__m=mboxCtrl.playSong&__a=10493935&__o=song/10493935||playBtn&fr=altg_new3||www.baidu.com#" hidden="true">
-
+	<button onclick = "javascript:window.location.href = 'index.html'">new Game</button>
+	<canvas id = "chess" width = "450px" height = "450px"></canvas>
+	<script type = "text/javascript" src = "js/script.js"></script>
+    
 </body>
 </html>
